@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    
+}
+ul{
+    display: flex;
+    margin: 0px 60px;
+}
+ul li{
+    list-style: none;
+    margin: 40px 10px;
+    font-size: 19px;
+    color: white;
+}
+ul li:hover{
+    color: grey;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.logo img{
+   margin: 10px 95px;
+}
+.navigation{
+    display: flex;
+}
+.navigation button{
+    width: 130px;
+    height: 45px;
+    position: relative;
+    top: 42px;
+    right: -380px;
+    background-color: #009dff;
+    color: white;
+
+}
+.navigation button:hover{
+   color: #009dff;
+   background-color: white;
+   cursor: pointer;
+   font-weight: bold;
+   border:  2px solid #009dff;
+}
+
+.life::before{
+    content: '';
+    background: url('https://preview.colorlib.com/theme/montana/img/banner/xbanner2.png.pagespeed.ic.RygwS5iHf6.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    margin-top: 80px;
+}
+.life{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.life h1{
+    margin-top: 250px;
+    font-size: 4.5rem;
+}
+.texts p{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.text h1{
+    font-size: 2.8rem;
+}
+.text p{
+    width: 500px;
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+.img{
+    margin: 0px 10px;
+}
+.images{
+    display: flex;
+    margin-left: 70px;
+}
+.text .b{
+        width: 130px;
+        height: 45px;
+        background-color: #009dff;
+        color: white;
+        margin: 30px 20px;
+}
+.text .b:hover{
+    color: #009dff;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border:  2px solid #009dff;
+ }
+
+ .offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .offer .item{
+    margin-top: 25px;
+ }
+ .item p{
+    font-size: 2rem;
+ }
+ .item li{
+    font-size: 1.3rem;
+    margin-top: 15px;
+    color: grey;
+ }
+ .item button{
+     margin-top: 20px;
+     background-color: white;
+     color: #009dff;
+     border: 1px solid #009dff;
+     width: 370px;
+     height: 35px;
+ }
+ .offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+ }
+ .offer h1{
+    font-size: 3.4rem;
+ }
+ .boxItem{
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    margin-top: 70px;
+ }
+ .box{
+    margin: 0px 20px;
+ }
+ .box button:hover{
+    background-color: #009dff;
+    color: white;
+    cursor: pointer;
+ }
+ .food{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 200px;
+ }
+ .images1{
+    display: flex;
+ }
+ .text1{
+    margin-left: 100px;
+    margin-top: 50px;
+ }
+ .text1 h1{
+    font-size: 3.4rem;
+ }
+ .text1 p{
+    width: 500px;
+    font-size: 1.4rem;
+    margin-top: 20px;
+ }
+ .text1 .b{
+        width: 130px;
+        height: 45px;
+        background-color: #009dff;
+        color: white;
+        margin: 30px 20px;
+}
+.text1 .b:hover{
+    color: #009dff;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border:  2px solid #009dff;
+ }
+ .room{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+ }
+ .room h1{
+   font-size: 3rem;
+ }
+ .singleRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+ }
+ .room1 h1{
+    color: white;
+    margin-top: -150px;
+    margin-left: 35px;
+ }
+ .room1 span{
+    color: white;
+    margin-left: 35px;
+ }
+ .container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 250px;
+   border: 2px solid black;
+   padding: 40px;
+   width: 860px;
+   border-width: thin;
+   margin-left: 190px;
+ }
+ .container h1{
+   margin-right: 20px;
+ }
+ .container .cont{
+   margin-left: 80px;
+   background-color: #009dff;
+   color: white;
+   width: 230px;
+   height: 45px;
+   border-radius: 10px;
+   font-size: 18px;
+   border: 1px solid #009dff;
+ }
+ .container .cont:hover{
+   background-color: white;
+   color: #009dff;
+   font-weight: bold;
+   cursor: pointer;
+ }
+ footer{
+   margin-top: 40px;
+   background-color: black;
+   color: white;
+ }
+.foot{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 100px;
+}
+ .foot1{
+   margin-top: 110px;
+   margin-left: 100px;
+   display: flex;
+   flex-direction: column;
+ }
+ .footee{
+   margin-top: 147px;
+   margin-left: 100px;
+   display: flex;
+   flex-direction: column;
+ }
+ .footee span:hover{
+   color: #009dff;
+   cursor: pointer;
+ }
+ .footee span{
+   color: grey;
+   margin-top: 50px;
+ }
+ .foot1 span{
+   color: grey;
+   position: relative;
+   margin-top: 50px;
+ }
+ .foot2{
+   display: flex;
+   flex-direction: column;
+   margin-top: 168px;
+   margin-left: 60px;
+
+ }
+ .foot2 .input{
+   margin-top: 50px;
+ }
+ .input input{
+   width: 230px;
+   height: 30px;
+   padding: 5px;
+ }
+ .foot2 span{
+   margin-top: 30px;
+   color: grey;
+   font-size: 17px;
+ }
+ .input button{
+   height: 44px;
+   width: 90px;
+   background-color: #009dff;
+   color: white;
+   position: relative;
+   border: 1px solid #009dff;
+   left: -5px;
+ }
